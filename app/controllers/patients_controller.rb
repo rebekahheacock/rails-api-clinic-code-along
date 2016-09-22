@@ -46,4 +46,6 @@ class PatientsController < ApplicationController
     @patient.destroy
     head :no_content
   end
+
+  private :set_patient, :patient_params
 end
