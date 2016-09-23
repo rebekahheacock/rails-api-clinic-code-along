@@ -14,5 +14,5 @@ Rails.application.routes.draw do
   # in this case, to: is the same as =>
 
   resources :patients, only: [:index, :show, :create, :update, :destroy]
-  resources :doctors, only: [:index, :show]
+  resources :doctors, only: [:index, :show, :create]
 end

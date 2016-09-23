@@ -4,6 +4,7 @@ curl --include --request POST http://localhost:3000/doctors \
     "doctor": {
       "given_name": "Jane",
       "surname": "Franklin",
+      "specialty": "neurosurgery"
     }
   }'
 
@@ -17,6 +18,7 @@ curl --include --request PATCH http://localhost:3000/doctors/5 \
     "doctor": {
       "given_name": "Jane",
       "surname": "Franklin",
+      "specialty": "cardiothoracic surgery"
     }
   }'
 
