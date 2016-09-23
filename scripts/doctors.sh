@@ -4,7 +4,7 @@ curl --include --request POST http://localhost:3000/doctors \
     "doctor": {
       "given_name": "Jane",
       "surname": "Franklin",
-      "specialty": "neurosurgery"
+      "specialty": "orthopedic surgery"
     }
   }'
 
