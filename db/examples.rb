@@ -33,23 +33,20 @@ Doctor.create([
               ])
 
 Patient.create([
-                 { given_name: 'Jeff',
-                   surname: 'Horn',
-                   sickness: 'Too cool for school',
-                   doctor_id: 2 },
-                 { given_name: 'Chris',
-                   surname: 'Payne',
-                   sickness: 'Way too excited',
-                   doctor_id: 2 },
-                 { given_name: 'Brian',
-                   surname: 'Berzellini',
-                   sickness: 'Sad' },
-                 { given_name: 'Antony',
-                   surname: 'Donovan',
-                   sickness: 'Robot Syndrome',
-                   doctor_id: 1 },
-                 { given_name: 'Jason',
-                   surname: 'Weeks',
-                   sickness: 'Oddly large chest',
-                   doctor_id: 4 }
-               ])
+                { given_name: 'Jeff',
+                  surname: 'Horn',
+                  sickness: 'Too cool for school' },
+                { given_name: 'Chris',
+                  surname: 'Payne',
+                  sickness: 'Way too excited' },
+                { given_name: 'Brian',
+                  surname: 'Berzellini',
+                  sickness: 'Sad' },
+                { given_name: 'Antony',
+                  surname: 'Donovan',
+                  sickness: 'Robot Syndrome' },
+                { given_name: 'Jason',
+                  surname: 'Weeks',
+                  sickness: 'Oddly large chest' }
+              ])
+ 

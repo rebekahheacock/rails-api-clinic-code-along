@@ -10,7 +10,7 @@ class PatientsController < ApplicationController
   # formatted with a root key of "patient"
   # and allows the parameters name, sickness, and age
   def patient_params
-    params.require(:patient).permit(:name, :sickness, :age)
+    params.require(:patient).permit(:given_name, :surname, :sickness, :age)
   end
 
   def index
